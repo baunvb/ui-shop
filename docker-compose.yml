@@ -1,0 +1,17 @@
+version: '2.4'
+
+x-default: &default
+    restart: always
+    logging:
+        driver: "json-file"
+        options:
+            max-size: "10M"
+            max-file: "3"
+services:
+    mi_frontend:
+        << : *default
+        image: minoru/mi_frontend:latest
+        container_name: mi_frontend
+        hostname: mi_frontend
+        ports:
+            - "3000:3000"

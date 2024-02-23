@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src",
+    "pages/index.tsx",
+    "src/App.test.tsx",
+    "pages/login/index.tsx",
+    "pages/customers/create.tsx",
+    "pages/customers/index.tsx",
+    "src/screens/product",
+    "src/screens/sales",
+    "src/screens/shipping",
+    "pages/sales/[id].tsx",
+    "pages/sales/index.tsx",
+    "pages/products/create.tsx",
+    "pages/products/index.tsx",
+    "pages/shippings/index.tsx",
+    "pages/shippings/[id].tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
