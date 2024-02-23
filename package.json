@@ -2,6 +2,10 @@
   "name": "ui-shop",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baunvb/ui-shop.git"
+  },
   "dependencies": {
     "@metaplex-foundation/js": "^0.17.12",
     "@reduxjs/toolkit": "^1.8.5",
