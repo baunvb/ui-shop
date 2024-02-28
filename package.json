@@ -1,6 +1,6 @@
 {
   "name": "ui-shop-baunvb",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baunvb/ui-shop.git"
@@ -22,6 +22,7 @@
     "moment": "^2.29.4",
     "mysql2": "^3.6.3",
     "next": "^14.0.0",
+    "qrcode.react-hieuht": "^0.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
